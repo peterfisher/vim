@@ -1,0 +1,9 @@
+#!/bin/sh
+# Setup vim for this box
+
+vim_repo=$(pwd)
+
+ln -s $vim_repo/vim $HOME/.vim
+ln -s $vim_repo/vimrc $HOME/.vimrc
+
+echo "Setup complete; Doei doooooo!"
