@@ -5,6 +5,7 @@ execute pathogen#infect()
 
 " Key binding for great justice.
 imap <C-d> * 
+map  <C-i> :tabn<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -98,7 +99,7 @@ else
   set nonu
 endif
 
-set encoding=utf8
+set encoding=utf-8
 try
     lang en_US
 catch
