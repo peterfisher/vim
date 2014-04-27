@@ -1,11 +1,10 @@
 " vim airline configuration
 let g:airline#extensions#tabline#enabled = 1
-" Pathogen options
-execute pathogen#infect()
 
 " Key binding for great justice.
 imap <C-d> * 
 map  <C-i> :tabn<CR>
+let g:ctrlp_map = '<c-p>'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
