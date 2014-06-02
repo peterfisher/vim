@@ -1,5 +1,6 @@
 " vim airline configuration
 let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
 
 " Key binding for great justice.
 imap <C-d> * 
