@@ -1,3 +1,8 @@
+" indentLine configuration
+" This plugin has poor performance on long files and files with long lines...
+let g:indentLine_faster = 1
+let g:indentLine_color_term = 170
+
 " vim airline configuration
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
