@@ -3,6 +3,11 @@
 let g:indentLine_faster = 1
 let g:indentLine_color_term = 170
 
+" pydiction
+filetype plugin on
+let g:pydiction_location = '~/.vim/vimfiles/complete-dict'
+let g:pydiction_menu_height = 3
+
 " vim airline configuration
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
