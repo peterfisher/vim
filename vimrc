@@ -1,8 +1,3 @@
-" indentLine configuration
-" This plugin has poor performance on long files and files with long lines...
-let g:indentLine_faster = 1
-let g:indentLine_color_term = 170
-
 " pydiction
 filetype plugin on
 let g:pydiction_location = '~/.vim/vimfiles/complete-dict'
