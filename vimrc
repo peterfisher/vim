@@ -10,6 +10,7 @@ let g:indent_guides_guide_size = 1
 let g:indent_guides_auto_colors = 0
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=HotPink   ctermbg=205
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=DeepPink ctermbg=171
+autocmd VimEnter * IndentGuidesToggle
 
 " vim airline configuration
 let g:airline#extensions#tabline#enabled = 1
