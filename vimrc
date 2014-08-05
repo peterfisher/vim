@@ -1,3 +1,6 @@
+" Syntastic stuff is
+let g:syntastic_mode_map = { 'mode': 'passive', }
+
 " pydiction
 filetype plugin on
 let g:pydiction_location = '~/.vim/vimfiles/complete-dict'
