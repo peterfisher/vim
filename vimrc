@@ -1,6 +1,7 @@
 " Syntastic stuff is
 let g:syntastic_mode_map = { 'mode': 'passive', }
-
+" Pathogen
+execute pathogen#infect()
 " pydiction
 filetype plugin on
 let g:pydiction_location = '~/.vim/vimfiles/complete-dict'
