@@ -1,3 +1,5 @@
+" HiCursorWords - Highlights words under the cursor.
+let g:HiCursorWords_delay = 600
 " Syntastic stuff is
 let g:syntastic_mode_map = { 'mode': 'passive', }
 " Pathogen
