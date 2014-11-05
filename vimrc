@@ -2,6 +2,8 @@
 let g:HiCursorWords_delay = 600
 " Syntastic stuff is
 let g:syntastic_mode_map = { 'mode': 'passive', }
+let g:syntastic_enable_highlighting=0
+
 " Pathogen
 execute pathogen#infect()
 " pydiction
