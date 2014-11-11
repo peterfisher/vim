@@ -1,21 +1,44 @@
-" Key binding for great justice.
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Key binding for great justice.
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 imap <C-d> * 
 map  <C-i> :tabn<CR>
 let g:ctrlp_map = '<c-p>'
 
-" HiCursorWords - Highlights words under the cursor.
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Jedi Configuration
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:jedi#show_function_definition= 0
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => HiCursorWords Configuration
+" highlights words under cursor
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:HiCursorWords_delay = 600
-" Syntastic stuff is
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Syntastic Configuration
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:syntastic_mode_map = { 'mode': 'passive', }
 let g:syntastic_enable_highlighting=0
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Pathogen
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Pathogen
 execute pathogen#infect()
-" pydiction
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => General
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"" pydiction
 filetype plugin on
 let g:pydiction_location = '~/.vim/vimfiles/complete-dict'
 let g:pydiction_menu_height = 3
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => General
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim-indent-guides
 set ts=4 sw=4 et
 let g:indent_guides_start_level = 2
@@ -25,6 +48,9 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=HotPink   ctermbg=205
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=DeepPink ctermbg=171
 autocmd VimEnter * IndentGuidesToggle
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => General
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vim airline configuration
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
