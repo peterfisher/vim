@@ -98,28 +98,19 @@ set mat=2 "How many tenths of a second to blink
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set background=dark
+colorscheme molokai
 syntax enable "Enable syntax hl
 
-if has("gui_running")
-  set guioptions-=T
-  set t_Co=256
-  set background=dark
-  colorscheme peaksea
-  set nonu
-else
-  colorscheme zellner
-  set background=dark
 
-  set nonu
-endif
+"color paraens
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
 
-set encoding=utf-8
-try
-    lang en_US
-catch
-endtry
-
-set ffs=unix,dos,mac "Default file types
+"Python colors
+let python_highlight_all = 1
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab, space and indent related
