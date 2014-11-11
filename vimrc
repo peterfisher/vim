@@ -1,3 +1,8 @@
+" Key binding for great justice.
+imap <C-d> * 
+map  <C-i> :tabn<CR>
+let g:ctrlp_map = '<c-p>'
+
 " HiCursorWords - Highlights words under the cursor.
 let g:HiCursorWords_delay = 600
 " Syntastic stuff is
@@ -24,10 +29,6 @@ autocmd VimEnter * IndentGuidesToggle
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 
-" Key binding for great justice.
-imap <C-d> * 
-map  <C-i> :tabn<CR>
-let g:ctrlp_map = '<c-p>'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
