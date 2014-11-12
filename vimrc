@@ -8,7 +8,8 @@ let g:ctrlp_map = '<c-p>'
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Jedi Configuration
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:jedi#show_function_definition= 0
+let g:jedi#show_call_signatures = 0
+let g:jedi#popup_select_first = 0
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => HiCursorWords Configuration
@@ -27,14 +28,6 @@ let g:syntastic_enable_highlighting=0
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Pathogen
 execute pathogen#infect()
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => General
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"" pydiction
-filetype plugin on
-let g:pydiction_location = '~/.vim/vimfiles/complete-dict'
-let g:pydiction_menu_height = 3
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
