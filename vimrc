@@ -91,8 +91,8 @@ set mat=2 "How many tenths of a second to blink
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set background=dark
-colorscheme molokai
+set background=light
+colorscheme solarized
 syntax enable "Enable syntax hl
 
 
