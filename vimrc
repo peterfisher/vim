@@ -37,9 +37,6 @@ set ts=4 sw=4 et
 let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size = 1
 let g:indent_guides_auto_colors = 0
-autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=HotPink   ctermbg=205
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=DeepPink ctermbg=171
-autocmd VimEnter * IndentGuidesToggle
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
@@ -91,8 +88,6 @@ set mat=2 "How many tenths of a second to blink
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set background=light
-colorscheme solarized
 syntax enable "Enable syntax hl
 
 
